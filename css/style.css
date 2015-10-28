@@ -1,0 +1,157 @@
+/* 
+88""Yb    db    .dP"Y8 888888 
+88__dP   dPYb   `Ybo." 88__   
+88""Yb  dP__Yb  o.`Y8b 88""   
+88oodP dP""""Yb 8bodP' 888888  */
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: url(img/bg.jpg) no-repeat center center;
+  background-attachment: fixed;
+  color: black;
+}
+h1,
+h2 {
+  font-size: 2em;
+  font-family: 'PT Sans', sans-serif;
+  margin: 0.333em 0;
+  font-weight: normal;
+}
+h1 span,
+h2 span {
+  font-family: 'Times New Roman';
+}
+p {
+  margin: 1.071em 0;
+  font-family: 'Arial';
+  font-size: 1em;
+}
+a {
+  color: #897151;
+  text-decoration: underline;
+  transition: all 0.4s ease;
+}
+a:hover {
+  color: #897151;
+  text-decoration: none;
+}
+label {
+  padding: 0;
+}
+input {
+  padding: 0;
+  width: 310px;
+  -webkit-box-sizing: border-box;
+  padding: 0 5px;
+  line-height: 2em;
+  border: 1px solid #b8b8b8;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+textarea {
+  width: 310px;
+  min-height: 200px;
+}
+input[type="submit"] {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border: 0;
+  background: #927150;
+  height: 2.5em;
+  padding: 0 1.214em;
+  line-height: 1.643em;
+  cursor: pointer;
+  font-family: 'PT Sans', serif;
+  text-align: center;
+  color: #fff;
+  font-size: 1em;
+  padding-bottom: 2px;
+  width: auto;
+}
+ul {
+  padding-left: 15px;
+}
+.page-main__container {
+  padding: 1.9em 3.571em 1.714em 4.6em;
+}
+.container {
+  /* width: 1030px;*/
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 0 62px #000;
+}
+.container {
+  /*  width: auto; */
+}
+.breadcrumb {
+  padding: 0;
+  margin-bottom: 0em;
+}
+.breadcrumb li {
+  font-size: 0.857em;
+}
+.breadcrumb a {
+  text-decoration: none;
+  color: #6d6d6d;
+}
+.breadcrumb a:hover {
+  text-decoration: underline;
+  color: #6d6d6d;
+}
+.breadcrumb > li + li:before {
+  content: ">";
+  padding-left: 0;
+  padding-right: 3px;
+}
+/* 
+88""Yb    db    .dP"Y8 888888     888888 88b 88 8888b.  
+88__dP   dPYb   `Ybo." 88__       88__   88Yb88  8I  Yb 
+88""Yb  dP__Yb  o.`Y8b 88""       88""   88 Y88  8I  dY 
+88oodP dP""""Yb 8bodP' 888888     888888 88  Y8 8888Y"   */
+/* 
+88  88 888888    db    8888b.  888888 88""Yb 
+88  88 88__     dPYb    8I  Yb 88__   88__dP 
+888888 88""    dP__Yb   8I  dY 88""   88"Yb  
+88  88 888888 dP""""Yb 8888Y"  888888 88  Yb  */
+.page-header__inner {
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+.page-header__inner h2 {
+  display: inline-block;
+  font-family: 'Arial';
+  font-size: 0.857em;
+  /*12px*/
+  width: 160px;
+  font-weight: normal;
+  vertical-align: middle;
+  line-height: 1.2em;
+  padding-left: 0.7em;
+}
+.page-header__contact-phone span {
+  color: red;
+  font-size: 1.750em;
+  /*28px*/
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+}
+.page-header__contact-adres {
+  text-align: right;
+}
+.page-header__contact-adres p {
+  font-size: 1em;
+  line-height: 1.2em;
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+.page-header__contact-adres span {
+  font-weight: bold;
+}
+/* 
+88  88 888888    db    8888b.  888888 88""Yb     888888 88b 88 8888b.  
+88  88 88__     dPYb    8I  Yb 88__   88__dP     88__   88Yb88  8I  Yb 
+888888 88""    dP__Yb   8I  dY 88""   88"Yb      88""   88 Y88  8I  dY 
+88  88 888888 dP""""Yb 8888Y"  888888 88  Yb     888888 88  Y8 8888Y"   */

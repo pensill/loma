@@ -1,0 +1,8 @@
+
+@font-face {
+    font-family: 'molot';
+    src: url('molot.eot');
+    src: url('molot.eot?#iefix') format('embedded-opentype'),
+         url('molot.woff') format('woff'),
+         url('molot.ttf') format('truetype');
+}

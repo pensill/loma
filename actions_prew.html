@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>alkom</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="fonts/molot.css">
+  <link rel="stylesheet" href="style.css">
+    <!--[if IE]>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src="js/respond.src.js"></script>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="js/jquery.js"></script>
+  <!-- <script src="js/bootstrap.min.js"></script> -->
+  <script src="js/bootstrapvalidator.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <script src="js/script.js"></script>
+</head>
+<body>
+    <header class="page-header">
+        <div class="container">
+            <div class="page-header__inner">
+                <div class="row">
+                    <div class="page-header__red"></div>
+                    <div class="col-md-5 col-sm-12 col-xs-12 page-header__logo">
+                        <a href="#"><img src="img/logo_header.png"></a>
+                        <h2>Покупка и переработка лома цветного металла</h2>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 page-header__contact-phone">
+                        <div class=" ">
+                            <a href="tel:88124261093"><span>8 (812) 426-10-93</span></a>
+                            <a href="tel:88003339310"><span>8 (800) 333-93-10</span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 page-header__contact-adres">
+                        <p><span>Город:</span> Санкт-Петербург</p>
+                        <p><span>Адрес:</span> Шоссе Революции, 88</p>
+                        <p><span>E-Mail:</span> <a href="mailto:loma@alkom.spb.ru">loma@alkom.spb.ru</a></p>
+                        <a data-toggle="modal" href="#scheme" class="modal-show" href="#">Схема проезда</a>
+                    </div>
+                </div>
+            </div>
+            <div id="scheme" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title">Наш адрес: шоссе революции, 88</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div id="map" style="width: 100%; height: 400px;"></div>
+                            <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=7ZQWkvaSGbFhh9d2FJUY0F36-MfE374m&id=map"></script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="main-menu">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="main-menu__container">
+                                <div class="hamburger">
+                                    <div class="hamburger-item"></div>
+                                    <div class="hamburger-item"></div>
+                                    <div class="hamburger-item"></div>
+                                </div>
+                                <ul>
+                                    <li class="active"><a href="index.html">Главная</a></li>
+                                    <li><a href="about.html">О компании</a></li>
+                                    <li><a href="actions_prew.html">Акции</a></li>
+                                    <li><a href="articles_prew.html">Статьи</a></li>
+                                    <li><a href="price_prew.html">Цены</a></li>
+                                    <li><a href="contact.html">Контакты</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div> <!-- end contaiber header -->
+    </header>
+    <main>
+        <main class="page-main">
+            <div class="page-main__container container">
+                <div class="page-main__hand"></div>
+                <div class="row">
+                    <div class="col-md-9">
+                        <ol class="breadcrumb">
+                          <li><a href="#">Главная</a></li>
+                          <li class="active"><a href="#">Акции</a></li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-9">
+                        <section class="primary-info"> <!-- primary-info -->
+                            <blockquote>
+                                <div class="blockquote__text">
+                                </div>
+                            </blockquote>
+                            <h1>Акции</h1>
+
+                            <article class="action-prew">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="action-prew__container">
+                                            <a href="#"><h1>Болгарка — в подарок за «блестяшку»</h1></a>
+                                            <p class="action-prew__start-date">Опубликовано: <span>19/03/2012</span><i>|</i></p>
+                                            <p class="action-prew__end-date">Дата окончания акции: <span>04/30/2012 - 20</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="action-prew">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="action-prew__container">
+                                            <a href="#"><h1>За свинцовый неликвид — немецкий аккумулятор в подарок!</h1></a>
+                                            <p class="action-prew__start-date">Опубликовано: <span>19/03/2012</span><i>|</i></p>
+                                            <p class="action-prew__end-date">Дата окончания акции: <span>04/30/2012 - 20</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="action-prew">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="action-prew__container">
+                                            <a href="#"><h1>Болгарка — в подарок за «блестяшку»</h1></a>
+                                            <p class="action-prew__start-date">Опубликовано: <span>19/03/2012</span><i>|</i></p>
+                                            <p class="action-prew__end-date">Дата окончания акции: <span>04/30/2012 - 20</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                        </section> <!-- primary-info end -->
+                    </div>
+
+                    <div class="col-md-3">
+                        <aside class="sidebar">
+                            <div class="sidebar-info">
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="sidebar-info__container">
+                                            <a href="#">
+                                                <h3>За тонну блестящего медного лома - в подарок болгарку прими от алкома</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </aside> <!-- sidebar end -->
+                    </div>
+
+                </div> <!-- row end -->
+
+            </div> <!-- page-main__container end -->
+        </main>
+
+        <footer class="page-footer">
+            <div class="container-fluid">
+                <div class="page-footer__inner">
+
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <img src="img/footer_logo.png">
+                            <h2>Покупка и переработка лома цветного металла</h2>
+                        </div>
+                        <div class="col-md-9 col-sm-9">
+                            <p>ООО «Алком» — компания, сфера деятельности которой включает приём, продажу и переработку металлолома. Мы готовы приобрести лом цветных металлов и чёрный лом по весьма выгодным для Вас расценкам. Помимо этого, наша компания занимается реализацией лома, а также продажей переработанных металлов.</p>
+                            <p>Мы сотрудничаем с юридическими и физическими лицами, причём оплата может вноситься в любой удобной для клиента форме.</p>
+                        </div>
+                    </div><!-- row end -->
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="footer-accordion">
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12">
+                                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                            
+                                            <div class="row">
+                                                <div class="col-md-3 col-sm-3">
+                                                    <div class="panel panel-default footer-accordion__item">
+                                                        <div class="panel-heading" role="tab" id="">
+                                                            <h4 class="panel-title footer-accordion__title">
+                                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#footerAccord-1" aria-expanded="false">Прием лома нержавеющей стали</a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="footerAccord-1" class="panel-collapse collapse" role="tabpanel">
+                                                          <div class="panel-body footer-accordion__body">
+                                                              <a href="">Прием лома нержавейки</a>
+                                                              <a href="">Прием стали нержавеющей с содержанием 10% никеля</a>
+                                                              <a href="">Прием лома нержавеющей стали</a>
+                                                              <a href="">Прием негабаритного лома нержавейки с 8% и 10% Ni</a>
+                                                          </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-3 col-sm-3">
+                                                    <div class="panel panel-default footer-accordion__item">
+                                                        <div class="panel-heading" role="tab" id="">
+                                                            <h4 class="panel-title footer-accordion__title">
+                                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#footerAccord-2" aria-expanded="false">Прием лома магния</a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="footerAccord-2" class="panel-collapse collapse" role="tabpanel">
+                                                          <div class="panel-body footer-accordion__body">
+                                                            <a href="">Бронза микс</a>
+                                                            <a href="">Бронза марок БрАЖ, БрОЦС,БрОФ</a>
+                                                          </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-3 col-sm-3">
+                                                    <div class="panel panel-default footer-accordion__item">
+                                                        <div class="panel-heading" role="tab" id="">
+                                                            <h4 class="panel-title footer-accordion__title">
+                                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#footerAccord-3" aria-expanded="false">Прием лома свинца</a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="footerAccord-3" class="panel-collapse collapse" role="tabpanel">
+                                                          <div class="panel-body footer-accordion__body">
+                                                            <a href="">Прием переплава и лома выплава свинца</a>
+                                                            <a href="">Прием лома аккумуляторов (акб) в металлолом</a>
+                                                          </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-3 col-sm-3">
+                                                    <div class="panel panel-default footer-accordion__item">
+                                                        <div class="panel-heading" role="tab" id="">
+                                                            <h4 class="panel-title footer-accordion__title">
+                                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#footerAccord-4" aria-expanded="false">Прием лома латуни</a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="footerAccord-4" class="panel-collapse collapse" role="tabpanel">
+                                                          <div class="panel-body footer-accordion__body">
+                                                            <a href="">Прием лома латуни</a>
+                                                            <a href="">Покупка латунных радиаторов</a>
+                                                            <a href="">Прием латунной стружки</a>
+                                                            <a href="">Прием лома латуни марки ЛС59</a>
+                                                            <a href="">Прием лома латуни марки ЛС63</a>
+                                                          </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div> <!--  row accordion first end -->
+
+
+                                            <div class="row">
+
+                                                <div class="col-md-3 col-sm-3">
+                                                    <div class="panel panel-default footer-accordion__item">
+                                                        <div class="panel-heading" role="tab" id="">
+                                                            <h4 class="panel-title footer-accordion__title">
+                                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#footerAccord-5" aria-expanded="false">Прием лома меди</a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="footerAccord-5" class="panel-collapse collapse" role="tabpanel">
+                                                          <div class="panel-body footer-accordion__body">
+                                                              <a href="">Прием лома меди</a>
+                                                              <a href="">Сдать медные болванки</a>
+                                                              <a href="">Прием лома меди электротехнической</a>
+                                                              <a href="">Прием лома меди микс</a>
+                                                              <a href="">Покупка медных радиаторов</a>
+                                                              <a href="">Прием медной стружки</a>
+                                                          </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-3 col-sm-3">
+                                                    <div class="panel panel-default footer-accordion__item">
+                                                        <div class="panel-heading" role="tab" id="">
+                                                            <h4 class="panel-title footer-accordion__title">
+                                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#footerAccord-6" aria-expanded="false" >Прием лома черных металлов</a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="footerAccord-6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="footerAccord-6">
+                                                          <div class="panel-body footer-accordion__body">
+                                                            <a href="">Прием лома чугуна</a>
+                                                            <a href="">Прием лома черных металлов марки 5А</a>
+                                                            <a href="">Прием лома черных металлов марки 12А</a>
+                                                            <a href="">Прием лома черных металлов марки 17А(габарит)</a>
+                                                            <a href="">Прием лома черных металлов марки 3А</a>
+                                                          </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-3 col-sm-3">
+                                                    <div class="panel panel-default footer-accordion__item">
+                                                        <div class="panel-heading" role="tab" id="">
+                                                            <h4 class="panel-title footer-accordion__title">
+                                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#footerAccord-7" aria-expanded="false">Прием лома бронзы</a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="footerAccord-7" class="panel-collapse collapse" role="tabpanel">
+                                                          <div class="panel-body footer-accordion__body">
+                                                            <a href="">Прием лома бронзы – микс</a>
+                                                            <a href="">Стружка бронзовая</a>
+                                                            <a href="">Лом бронзы – БрАЖ</a>
+                                                          </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-3 col-sm-3">
+                                                    <div class="panel panel-default footer-accordion__item">
+                                                        <div class="panel-heading" role="tab" id="">
+                                                            <h4 class="panel-title footer-accordion__title">
+                                                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#footerAccord-8" aria-expanded="true" class="collapsed">Прием лома алюминия</a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="footerAccord-8" class="panel-collapse collapse" role="tabpanel" >
+                                                          <div class="panel-body footer-accordion__body">
+                                                            <a href="">Прием лома алюминия</a>
+                                                            <a href="">Прием алюминиевого профиля АД 31</a>
+                                                            <a href="">Прием банок алюминиевых</a>
+                                                            <a href="">Прием фольги алюминиевой</a>
+                                                            <a href="">Прием стружки алюминиевой</a>
+                                                            <a href="">Прием лома алюминия бытового (микс)</a>
+                                                            <a href="">Лом шина алюминиевая</a>
+                                                            <a href="">Покупка лома пищевого алюминия</a>
+                                                            <a href="">Кабель алюминиевый лом</a>
+                                                            <a href="">Покупка лома катерного алюминия (моторка)</a>
+                                                          </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>  <!--  row accordion second end -->
+
+                                             <div class="row">
+
+                                                <div class="col-md-3 col-sm-3">
+                                                    <div class="panel panel-default footer-accordion__item">
+                                                        <div class="panel-heading" role="tab" id="">
+                                                            <h4 class="panel-title footer-accordion__title">
+                                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#footerAccord-9" aria-expanded="false">Прием лома титана</a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="footerAccord-9" class="panel-collapse collapse" role="tabpanel">
+                                                          <div class="panel-body footer-accordion__body">
+                                                              <a href="">Покупка лома титана марки ВТ1-0</a>
+                                                              <a href="">Стружка титановая</a>
+                                                              <a href="">Прием лома титана</a>
+                                                          </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>  <!--  row accordion third end -->
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  <!-- page-footer__accordion end -->
+                        </div>
+                    </div>
+
+                </div>   <!-- page footer inner end -->
+
+                <div class="page-footer__inner">
+                    <div class="footer-social">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="page-footer__copyright">
+                                    <p>© 2012 «Алком» — покупка, переработка, продажа лома цветных металлов</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="page-footer__sator">
+                                    <p>Создание сайта в <a href="#">интернет-агентстве - «SATOR»</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-4">
+                                <a class="footer-social__icon footer-social__icon-vk" href="#"></a><a class="footer-social__icon footer-social__icon-tw" href="#"></a><a class="footer-social__icon footer-social__icon-fb" href="#"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
