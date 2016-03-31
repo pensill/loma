@@ -676,27 +676,6 @@ o.`Y8b 88  8I  dY 88""   88""Yb  dP__Yb  88"Yb      88""   88 Y88  8I  dY
   text-decoration: none;
   border-bottom: 1px dashed;
 }
-.footer-accordion__title a:before {
-  content: '-';
-  color: #333333 !important;
-  font-size: 20px;
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  line-height: 13px;
-  text-align: center;
-  border-radius: 7px;
-  background-color: white;
-  left: -19px;
-  top: 1px;
-  font-weight: bold;
-}
-.footer-accordion__title .collapsed:before {
-  content: '+';
-  line-height: 16px;
-  padding-left: 0px;
-  left: -20px;
-}
 .footer-accordion__body {
   padding-top: 10px;
 }
